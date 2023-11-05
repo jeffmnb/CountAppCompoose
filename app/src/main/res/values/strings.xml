@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CountAppCompoose</string>
+    <string name="title_activity_count_page">CountPage</string>
+</resources>
