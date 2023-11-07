@@ -12,11 +12,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CountAppCompoose"
         tools:targetApi="31" >
+        
         <activity
             android:name=".CountPage.CountPage"
             android:exported="false"
             android:label="@string/title_activity_count_page"
             android:theme="@style/Theme.CountAppCompoose" />
+        
         <activity
             android:name=".MainActivity"
             android:exported="true"
@@ -28,6 +30,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        
     </application>
 
 </manifest>
